@@ -17,6 +17,44 @@ TextureImporter:
     21300024: EffectsUI_12
     21300026: EffectsUI_13
     21300028: EffectsUI_14
+    21300030: EffectsUI_15
+    21300032: EffectsUI_16
+    21300034: EffectsUI_17
+    21300036: EffectsUI_18
+    21300038: EffectsUI_19
+    21300040: EffectsUI_20
+    21300042: EffectsUI_21
+    21300044: EffectsUI_22
+    21300046: EffectsUI_23
+    21300048: EffectsUI_24
+    21300050: EffectsUI_25
+    21300052: EffectsUI_26
+    21300054: EffectsUI_27
+    21300056: EffectsUI_28
+    21300058: EffectsUI_29
+    21300060: EffectsUI_30
+    21300062: EffectsUI_31
+    21300064: EffectsUI_32
+    21300066: EffectsUI_33
+    21300068: EffectsUI_34
+    21300070: EffectsUI_35
+    21300072: EffectsUI_36
+    21300074: EffectsUI_37
+    21300076: EffectsUI_38
+    21300078: EffectsUI_39
+    21300080: EffectsUI_40
+    21300082: EffectsUI_41
+    21300084: EffectsUI_42
+    21300086: EffectsUI_43
+    21300088: EffectsUI_44
+    21300090: EffectsUI_45
+    21300092: EffectsUI_46
+    21300094: EffectsUI_49
+    21300096: EffectsUI_50
+    21300098: EffectsUI_51
+    21300100: EffectsUI_52
+    21300102: EffectsUI_53
+    21300104: EffectsUI_54
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -127,13 +165,13 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40720537beeec7a48b38331a532ccbee
+      spriteID: fe9a8d7c7c97f0740b0ed920f5c46a63
       vertices: []
       indices: 
       edges: []
@@ -147,13 +185,13 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e68bd277ea1e603438706be9f790c98c
+      spriteID: 29baf40147e9c7f42afec8ed5b77cfa5
       vertices: []
       indices: 
       edges: []
@@ -167,13 +205,13 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 556b84d04be3cb4468a86542338d30a8
+      spriteID: 20e79e230fe158748b6c2e0cf3c7f72f
       vertices: []
       indices: 
       edges: []
@@ -182,18 +220,18 @@ TextureImporter:
       name: EffectsUI_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
+        x: 112
+        y: 152
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a0c1586d1424534e87ed32e859c94e3
+      spriteID: ce0203649936e8444974ed69ede95d33
       vertices: []
       indices: 
       edges: []
@@ -202,18 +240,18 @@ TextureImporter:
       name: EffectsUI_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 136
+        x: 120
+        y: 152
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3925a870227faaf4eafa00f3eba0563f
+      spriteID: 24f5d24c23f852f49ab0905a08de21b6
       vertices: []
       indices: 
       edges: []
@@ -222,18 +260,18 @@ TextureImporter:
       name: EffectsUI_5
       rect:
         serializedVersion: 2
-        x: 8
-        y: 136
+        x: 128
+        y: 152
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c5aaa7fd1e62e4a932bf231e3c7310
+      spriteID: 407f431c6f2090741a6580b90face70c
       vertices: []
       indices: 
       edges: []
@@ -242,18 +280,18 @@ TextureImporter:
       name: EffectsUI_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 136
+        x: 136
+        y: 152
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d904471d11ac91b439ab597795ae5def
+      spriteID: cdf3bbac978b26849bd03559f7e3ff31
       vertices: []
       indices: 
       edges: []
@@ -262,18 +300,18 @@ TextureImporter:
       name: EffectsUI_7
       rect:
         serializedVersion: 2
-        x: 24
-        y: 136
+        x: 144
+        y: 152
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 563e69a0b015fb84f84fbf4aa14dab0a
+      spriteID: c9dd97f3e6255014dae54a9fd46bc2e9
       vertices: []
       indices: 
       edges: []
@@ -282,18 +320,18 @@ TextureImporter:
       name: EffectsUI_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 136
+        x: 152
+        y: 152
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f91d0cbbf30c894db4f573a61c95e5e
+      spriteID: 1d89bc7c4859a564ab5f021a22e46c38
       vertices: []
       indices: 
       edges: []
@@ -302,18 +340,18 @@ TextureImporter:
       name: EffectsUI_9
       rect:
         serializedVersion: 2
-        x: 40
-        y: 136
+        x: 0
+        y: 144
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3db0cb7b2ea7f014fa0986346ce247a7
+      spriteID: aefa197503d6b5e40bdd567a710fb846
       vertices: []
       indices: 
       edges: []
@@ -322,18 +360,18 @@ TextureImporter:
       name: EffectsUI_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 136
+        x: 112
+        y: 144
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e4311b1ae51f534c94232619c97dbfa
+      spriteID: c0fe7b8764771444d88e550bfd8a1a5f
       vertices: []
       indices: 
       edges: []
@@ -342,18 +380,18 @@ TextureImporter:
       name: EffectsUI_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 7
+        x: 120
+        y: 144
+        width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 0, z: 0, w: 1}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab9c698446843641a40badf78a234be
+      spriteID: 3e2f7360e2db9a34585f10a289392248
       vertices: []
       indices: 
       edges: []
@@ -362,18 +400,818 @@ TextureImporter:
       name: EffectsUI_12
       rect:
         serializedVersion: 2
-        x: 112
-        y: 112
-        width: 48
-        height: 48
+        x: 128
+        y: 144
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c09c18960d6e843b1a7766de7256d1
+      spriteID: 4636632a917adb3499966e8567f19785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b8be1749b8494dacfc9195a5574c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62da444ee5e44524abaca344cfe298fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcd0ee01a19ed9489bc4f86df98812d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578094be943af9446ab421148d38990f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956e82e88b3025f4185813de34755e2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1b45167ab71d44ea7cbbd7079154d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3f0f5bb7fc40847b2ef3d7534ab886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d108ae6d189af6d4495b8fe79d783872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bade64c52cf797f46b29d7b229f88c53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac33a740137ed7458b606422f9f4659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1707d088910376647afbd23c3e3258c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_24
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bf4223af9a1a240bc2bc13b1e6e821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0755a08a7295c0247b1531feaa6676e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aa031fc70be1e48bc5e1517e1b59de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9276fc8ac50116343a45daf156892b6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_28
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd27de2398a3784e81cd55772f423dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7a897992906b44abd3060d5e138c16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226bd6ad2ed9f3b4796431b4ef15246f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df158c1f9e7682448c051fc7ac326a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f36118027ec57b45b11b9e801535a84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_33
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7b9834665d67e4ebacb4d667321151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc10b201322fe0429ba47b718cfc820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0f5f5f1dc2d5b459baa14b375b6163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf864ddf9f1b8b43836c2e69e1f2113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4207b907f82864438843ff91ea9885b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b413da942222a743a84bdb610654862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_39
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ce8ba6ca374c94f93c14a7d336e502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0217cc96b91df624c9e09a324f84ad4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9667a23b86374314aac3013e12714e90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0b18f0579847741816f56f5516104a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e055698e1507f549ad61b7d43330b60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a607c370d694dba4291163b8b2bb650b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972d1b8353afbd34284011d2dc91b260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_46
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cd2ae75ed94704cbbc272b965c01a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5976d892d223144cbc713ecc9a29fd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fd3a19de50ff148b7eeb19d4ae9333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72624e8eafef73d4eb3cd4e84eb20275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7456be1d3cd804bb4c87887fad4b8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0de4e50a2bdfe5419ba26b4fd740656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EffectsUI_54
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838503a9d03517b40a1c0653feee05c0
       vertices: []
       indices: 
       edges: []

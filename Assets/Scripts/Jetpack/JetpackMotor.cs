@@ -14,13 +14,11 @@ public class JetpackMotor : MonoBehaviour {
 
     public float Fuel { get; private set; }
     
-    //Fuel lasts one second
     float fuelUseSpeed = 2f;
 
-    //Fuel takes one second to regen fully
     float fuelRegenSpeed = .5f;
 
-    float JetpackPower = 20f;
+    float JetpackPower = 15f;
 
     float JumpPower = 5f;
 
@@ -39,7 +37,7 @@ public class JetpackMotor : MonoBehaviour {
             body.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
         }
 
-        if (thruster && Fuel > 0f) {
+        if (thruster && Fuel > 0.1f) {
             //Move upwards
             body.AddForce(new Vector2(0f, JetpackPower));
             //Use fuel
