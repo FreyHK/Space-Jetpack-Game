@@ -5,12 +5,10 @@ using UnityEngine;
 public abstract class Entity : MonoBehaviour {
     
     [Header("Entity properties")]
-    public bool Invincible = false;
     public int Health = 1;
-    [Space(10)]
 
-    [HideInInspector]
-    public bool IsDead;
+    public bool Invincible { get; protected set; }
+    public bool IsDead { get; protected set; }
 
     public void TakeDamage (int dmg) {
         if (Invincible)
@@ -18,14 +16,22 @@ public abstract class Entity : MonoBehaviour {
 
         Health -= dmg;
         print(gameObject.name + " took " + dmg.ToString() + " damage.");
+        //Call event
+        OnTakeDamage(dmg);
 
         if (Health <= 0) {
             IsDead = true;
             print(gameObject.name + " died.");
+            //Call event
+            OnDeath();
         }
     }
 
     public virtual void DoUpdate() {}
 
     public virtual void UpdatePhysics () {}
+
+    protected virtual void OnTakeDamage(int dmg) { }
+
+    protected virtual void OnDeath() { }
 }

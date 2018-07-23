@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class JetpackEffects : MonoBehaviour {
 
-    public ParticleSystem system;
-	
-    public void UpdateEffects (bool thrust) {
-        if (thrust && !system.isEmitting)
-            system.Play();
+    public ParticleSystem System;
 
-        if (!thrust && system.isEmitting)
-            system.Stop();
+    public void UpdateEffects (bool thrust) {
+        if (thrust && !System.isEmitting)
+            System.Play();
+
+        if (!thrust && System.isEmitting)
+            System.Stop();
     }
 }

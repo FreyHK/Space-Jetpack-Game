@@ -3,6 +3,8 @@ guid: a968d096e754af246b71b2b01e6afef9
 TextureImporter:
   fileIDToRecycleName:
     21300000: Mobs_0
+    21300002: Mobs_1
+    21300004: Mobs_2
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -124,13 +126,53 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 7f4eecde1201e0e4c9139cee7aaf5be3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobs_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 144
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7fbad4981bd874499b830fe7da89e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobs_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 144
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e58d842bbc1f04d836683ca4f0ad55
       vertices: []
       indices: 
       edges: []

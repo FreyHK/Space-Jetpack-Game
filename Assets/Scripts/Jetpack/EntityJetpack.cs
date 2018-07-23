@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBase : Entity {
+public class EntityJetpack : Entity {
 
     public JetpackMotor motor;
     public JetpackInput input;
@@ -10,12 +10,13 @@ public class PlayerBase : Entity {
     public JetpackAnimator animator;
     public JetpackUI UI;
 
-
     float inp = 0f;
     bool thrustInp = false;
     bool jumpInp = false;
 
     public override void DoUpdate() {
+        if (IsDead)
+            return;
 
         inp = input.GetHorizontalInput();
 
@@ -34,6 +35,9 @@ public class PlayerBase : Entity {
     }
 
     public override void UpdatePhysics() {
+        if (IsDead)
+            return;
+
         motor.UpdatePhysics(inp, thrustInp, jumpInp);
 
         //Reset input
@@ -42,5 +46,29 @@ public class PlayerBase : Entity {
 
         if (jumpInp)
             jumpInp = false;
+    }
+
+    protected override void OnTakeDamage(int dmg) {
+        StartCoroutine(ActivateGracePeriod());
+    }
+
+    float GracePeriodDuration = 3f;
+
+    IEnumerator ActivateGracePeriod () {
+        //Can't be damaged by enemies
+        Invincible = true;
+
+        yield return new WaitForSeconds(GracePeriodDuration);
+
+        //Can be damaged again
+        Invincible = false;
+    }
+
+    protected override void OnDeath() {
+
+    }
+
+    public void RefillFuel () {
+        motor.Fuel = motor.MaxFuel;
     }
 }

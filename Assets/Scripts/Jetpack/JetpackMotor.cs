@@ -10,9 +10,11 @@ public class JetpackMotor : MonoBehaviour {
 
     public bool IsThrusting { get; private set; }
 
-    public float MaxFuel = 1f;
+    [HideInInspector]
+    public float MaxFuel = 2f;
 
-    public float Fuel { get; private set; }
+    [HideInInspector]
+    public float Fuel;
     
     float fuelUseSpeed = 2f;
 
@@ -25,7 +27,7 @@ public class JetpackMotor : MonoBehaviour {
     float MoveSpeed = 3f;
 
     private void Awake() {
-        Fuel = 1f;
+        Fuel = MaxFuel;
     }
 
     public void UpdatePhysics (float inpMove, bool thruster, bool jump) {
@@ -37,7 +39,7 @@ public class JetpackMotor : MonoBehaviour {
             body.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
         }
 
-        if (thruster && Fuel > 0.1f) {
+        if (thruster && Fuel > 0f) {
             //Move upwards
             body.AddForce(new Vector2(0f, JetpackPower));
             //Use fuel
@@ -45,10 +47,12 @@ public class JetpackMotor : MonoBehaviour {
             //Set flag
             IsThrusting = true;
 
-        } else if (Fuel < MaxFuel) {
+        } /*
+        else if (Fuel < MaxFuel) {
             //Regenerate fuel over time
             Fuel = Mathf.Clamp(Fuel + Time.deltaTime * fuelRegenSpeed, 0, MaxFuel);
         }
+        */
 
         //Moving horizontally
         body.velocity = new Vector2(inpMove * MoveSpeed, body.velocity.y);

@@ -24,7 +24,7 @@ public class JetpackUI : MonoBehaviour {
     float lastFuel;
 
     void UpdateHideCooldown (float fuel) {
-        if (Mathf.Abs(fuel - lastFuel) < .2f)
+        if (Mathf.Abs(fuel - lastFuel) < .1f)
             idleCD += Time.deltaTime;
         else {
             idleCD = 0f;
@@ -34,7 +34,7 @@ public class JetpackUI : MonoBehaviour {
             lastFuel = fuel;
         }
 
-        if (idleCD > 1f && fuelReserveImage.enabled || fuel < .1f) {
+        if (idleCD > 3f && fuelReserveImage.enabled || fuel < .1f) {
             fuelReserveImage.enabled = false;
         }
     }

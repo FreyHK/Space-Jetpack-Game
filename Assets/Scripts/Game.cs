@@ -6,10 +6,16 @@ public class Game : MonoBehaviour {
 
     public Entity PlayerJetpack;
 
-    public List<Entity> Entities = new List<Entity>();
+    List<Entity> Entities;
 
 	void Start () {
-		
+        Entities = new List<Entity>();
+
+        Entity[] ent = FindObjectsOfType<Entity>();
+
+        for (int i = 0; i < ent.Length; i++) {
+            Entities.Add(ent[i]);
+        }
 	}
 	
 	void Update () {

@@ -2,27 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sun : Entity {
+public class EntitySun : Entity {
     
-	void Start () {
-		
-	}
-
     public LayerMask playerMask;
     public float Radius = 3f;
 
     int Damage = 1;
 
-
     float cooldown;
 
 	public override void UpdatePhysics () {
+        CheckForPlayer();
+        /*
         if (cooldown <= 0f) {
             if (CheckForPlayer())
                 cooldown = 2.5f;
         }else {
             cooldown -= Time.deltaTime;
         }
+        */
     }
 
     bool CheckForPlayer () {
@@ -33,7 +31,7 @@ public class Sun : Entity {
             if (cols[i].tag != "Player")
                 continue;
 
-            PlayerBase p = cols[i].GetComponent<PlayerBase>();
+            EntityJetpack p = cols[i].GetComponent<EntityJetpack>();
             if (!p.IsDead) {
                 p.TakeDamage(Damage);
                 return true;
