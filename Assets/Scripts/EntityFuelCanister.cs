@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EntityFuelCanister : Entity {
 
-    float HitRadius = 1f;
+    float HitRadius = .5f;
 
     public override void UpdatePhysics() {
         //Check if touching player
@@ -16,6 +16,8 @@ public class EntityFuelCanister : Entity {
 
             EntityJetpack p = cols[i].GetComponent<EntityJetpack>();
             p.RefillFuel();
+            //Kill ourselves
+            //TakeDamage(1);
         }
     }
 }

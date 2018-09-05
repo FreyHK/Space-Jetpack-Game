@@ -11,18 +11,19 @@ public class EntityJetpack : Entity {
     public JetpackUI UI;
 
     float inp = 0f;
-    bool thrustInp = false;
+    //bool thrustInp = false;
     bool jumpInp = false;
+    bool airJumpInp = false;
 
     public override void DoUpdate() {
         if (IsDead)
             return;
 
         inp = input.GetHorizontalInput();
-
-        //Only set if we havent already
-        thrustInp = thrustInp ? true : input.GetThrusterInput();
-        jumpInp = jumpInp ? true : input.GetJumpInput();
+        
+        //We NEED to do this in update since that's when input strikes
+        jumpInp = input.GetJump();
+        airJumpInp = input.GetAirJump();
 
         if (effects != null)
             effects.UpdateEffects(motor.IsThrusting);
@@ -38,14 +39,11 @@ public class EntityJetpack : Entity {
         if (IsDead)
             return;
 
-        motor.UpdatePhysics(inp, thrustInp, jumpInp);
+        motor.UpdatePhysics(inp, jumpInp, airJumpInp);
 
         //Reset input
-        if (thrustInp)
-            thrustInp = false;
-
-        if (jumpInp)
-            jumpInp = false;
+        jumpInp = false;
+        airJumpInp = false;
     }
 
     protected override void OnTakeDamage(int dmg) {
