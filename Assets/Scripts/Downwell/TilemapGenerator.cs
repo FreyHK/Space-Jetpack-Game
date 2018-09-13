@@ -10,15 +10,36 @@ public class TilemapGenerator : MonoBehaviour {
     [SerializeField]
     TileBase tile;
 
-    void Start() {
-        int[,] map = new int[50, 100];
-        for (int x = 0; x < map.GetUpperBound(0); x++) {
-            for (int y = 0; y < map.GetUpperBound(1); y++) {
+    int Width;
+    int Height;
+
+    int minPathWidth;
+    int maxPathWidth;
+    int maxPathChange;
+    int roughness;
+    int curvyness;
+
+    //1, 3, 1, 30, 60
+    public void Init (int width, int height, int minPathWidth, int maxPathWidth, int maxPathChange, int roughness, int curvyness) {
+        Width = width;
+        Height = height;
+        this.minPathWidth = minPathWidth;
+        this.maxPathWidth = maxPathWidth;
+        this.maxPathChange = maxPathChange;
+        this.roughness = roughness;
+        this.curvyness = curvyness;
+    }
+
+    public void GenerateTilemap (int TunnelWidth, int startX, bool isSurface) {
+        this.TunnelWidth = TunnelWidth;
+
+        int[,] map = new int[Width, Height];
+        for (int x = 0; x < Width; x++) {
+            for (int y = 0; y < Height; y++) {
                 map[x, y] = 1;
             }
         }
-
-        map = DirectionalTunnel(map, 1, 3, 1, 30, 60);
+        map = DirectionalTunnel(map, TunnelWidth, startX, isSurface);
         Rendermap(map, tilemap, tile);
     }
 
@@ -31,7 +52,7 @@ public class TilemapGenerator : MonoBehaviour {
             for (int y = 0; y < map.GetUpperBound(1); y++) {
                 // 1 = tile, 0 = no tile
                 if (map[x, y] == 1) {
-                    tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                    tilemap.SetTile(new Vector3Int(x, -y, 0), tile);
                 }
             }
         }
@@ -44,43 +65,45 @@ public class TilemapGenerator : MonoBehaviour {
                 //This is because it uses less resources to update tiles to null
                 //As opposed to re-drawing every single tile (and collision data)
                 if (map[x, y] == 0) {
-                    tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                    tilemap.SetTile(new Vector3Int(x, -y, 0), null);
                 }
             }
         }
     }
 
+    public int TunnelWidth = 1;
+    public int EndX = 0;
 
-    public static int[,] DirectionalTunnel(int[,] map, int minPathWidth, int maxPathWidth, int maxPathChange, int roughness, int curvyness) {
+    public int[,] DirectionalTunnel(int[,] map, int TunnelWidth, int startX, bool surface = false) {
         //This value goes from its minus counterpart to its positive value, in this case with a width value of 1, the width of the tunnel is 3
-        int tunnelWidth = 1;
+        this.TunnelWidth = TunnelWidth;
         //Set the start X position to the center of the tunnel
-        int x = map.GetUpperBound(0) / 2;
+        int x = startX;
 
         //Set up our random with the seed
         System.Random rand = new System.Random(Time.time.GetHashCode());
 
         //Create the first part of the tunnel
-        for (int i = -tunnelWidth; i <= tunnelWidth; i++) {
+        for (int i = -TunnelWidth; i <= TunnelWidth; i++) {
             map[x + i, 0] = 0;
         }
 
-        for (int y = 1; y < map.GetUpperBound(1); y++) {
+        for (int y = surface ? 1 : 0; y < map.GetUpperBound(1); y++) {
             //Check if we can change the roughness
             if (rand.Next(0, 100) < roughness) {
                 //Get the amount we will change for the width
                 int widthChange = Random.Range(-maxPathWidth, maxPathWidth);
-                
+
                 //Add it to our tunnel width value
-                tunnelWidth += widthChange;
+                TunnelWidth += widthChange;
 
                 //Check to see we arent making the path too small
-                if (tunnelWidth < minPathWidth)
-                    tunnelWidth = minPathWidth;
+                if (TunnelWidth < minPathWidth)
+                    TunnelWidth = minPathWidth;
 
                 //Check that the path width isnt over our maximum
-                if (tunnelWidth > maxPathWidth)
-                    tunnelWidth = maxPathWidth;
+                if (TunnelWidth > maxPathWidth)
+                    TunnelWidth = maxPathWidth;
             }
 
             //Check if we can change the curve
@@ -101,10 +124,12 @@ public class TilemapGenerator : MonoBehaviour {
             }
 
             //Work through the width of the tunnel
-            for (int i = -tunnelWidth; i <= tunnelWidth; i++) {
+            for (int i = -TunnelWidth; i <= TunnelWidth; i++) {
                 map[x + i, y] = 0;
             }
         }
+
+        EndX = x;
         return map;
     }
 }
